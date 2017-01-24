@@ -196,6 +196,16 @@ ul {
 	.header-nav {
 		display: none;
 	}
+	.content-row{
+		padding-left: 69px;
+	}
+	.content-block.block-2{
+		display: none;
+	}
+	.content-block.w50{
+		width: 100%;
+		font-size: 18px;
+	}
 }
 @media (max-width: 639px){
 	.conteiner{
@@ -237,5 +247,24 @@ ul {
 	.header-nav {
 		display: none;
 	}
-
+	.content-row{
+		padding-left: 30px;
+	}
+	.content-row a{
+		font-size: 19px;
+		padding: 34px 0 25px 0;
+	}
+	.content-block{
+		padding-right: 30px;
+	}
+	.content-block p + p{
+		padding-top: 34px;
+	}
+	.content-block.block-2{
+		display: none;
+	}
+	.content-block.w50{
+		width: 100%;
+		font-size: 13px;
+	}
 }
