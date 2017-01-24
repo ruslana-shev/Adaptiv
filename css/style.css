@@ -122,6 +122,21 @@ ul {
 	width: 30%;
 	height: 221px;
 	background: #bc3184;
+	text-align: center;
+}
+.link::before{
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+}
+.link span{
+	display: inline-block;
+	vertical-align: middle;
+}
+.link span a{
+	color: #fff;
+	font-size: 30px;
 }
 .content-row{
 	height: 565px;
@@ -246,6 +261,9 @@ ul {
 	}
 	.header-nav {
 		display: none;
+	}
+	.link span a{
+		font-size: 20px;
 	}
 	.content-row{
 		padding-left: 30px;
