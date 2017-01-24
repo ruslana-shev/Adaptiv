@@ -1,0 +1,177 @@
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	margin: 0 auto;
+	color: #000;
+	background: #fff;
+	font: 12px/1 'Montserrat', arial, helvetica, sans-serif;
+}
+/* General reset */
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0;
+}
+img {
+	border: none;
+}
+a {
+	color: #000;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+ul {
+	margin: 0;
+	list-style: none;
+	padding: 0;
+}
+/* General settings */
+.conteiner{
+	width: 1024px;
+	margin: 0 auto;
+}
+/*HEADER START*/
+.header{
+	height: 98px;
+	background: #373c3f;
+}
+.logo{
+	float: left;
+	margin: 44px 38px 0 52px;
+}
+.logo a{
+	color: #fff;
+	font-size: 15px;
+}
+.header-nav{
+	float: left;
+	margin-top: 44px;
+}
+.header-nav li{
+	display: inline-block;
+	margin: 0 10px;
+	font-size: 15px;
+}
+.header-nav li a{
+	color: #fff;
+}
+.slicknav_menu{
+	display: none;
+}
+
+/*MAIN START*/
+.img-row{
+	overflow: hidden;
+}
+.inner-block{
+	height: 577px;
+	background: #17b2c5;
+	vertical-align: middle;
+}
+.inner-block::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    margin-left: -4px;
+}
+.inner-block-text{
+	display: inline-block;
+	vertical-align: middle;
+	color: #fff;
+	margin: 0 215px 0 62px;
+}
+.inner-block-text span{
+	font-size: 64px;
+	display: block;
+}
+.inner-block-text a{
+	display: inline-block;
+	font-size: 30px;
+	color: #fff;
+	padding-top: 68px;
+	color: #a8d6e0;
+}
+.inner-block-text a.arrow{
+	font-size: 40px;
+	float: right;
+	color: #fff;
+}
+.img-block{
+	float: left;
+	line-height: 0;
+}
+.img-block img{
+	width: 100%;
+}
+.img-block.w70{
+	width: 70%;
+}
+.img-block.w30{
+	width: 33.333%;
+}
+.link{
+	float: left;
+	width: 30%;
+	height: 221px;
+	background: #bc3184;
+}
+.content-row{
+	height: 565px;
+	background: #ebebeb;
+	padding-left: 85px;
+}
+.content-row a{
+	display: inline-block;
+	float: left;
+	width: 100%;
+	padding: 55px 0 30px 0;
+	font-size: 30px;
+	color: #088ca5;
+}
+.content-block{
+	float: left;
+	padding-right: 62px;
+	font-size: 14px;
+}
+.content-block.w50{
+	width: 50%;
+}
+.content-block p{
+	line-height: 1.5;
+}
+.content-block p + p{
+	padding-top: 43px;
+}
+
+/*MEDIA*/
+@media (max-width: 1059px){
+	.conteiner{
+		width: 750px;
+	}
+	.link{
+		height: 162px;
+	}
+}
+@media (max-width: 767px){
+	.conteiner{
+		width: 620px;
+	}
+	.link{
+		height: 130px;
+	}
+	.img-block.smw100{
+		width: 100%;
+	}
+	.slicknav_menu {
+		display: block;
+		float: right;
+	}
+	.header-nav {
+		display: none;
+	}
+}
