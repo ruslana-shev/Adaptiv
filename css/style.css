@@ -37,7 +37,6 @@ ul {
 /*HEADER START*/
 .header{
 	height: 98px;
-	line-height: 98px;
 	background: #373c3f;
 	position: relative;
 }
@@ -46,13 +45,14 @@ ul {
 }
 .logo{
 	float: left;
-	margin: 0 38px 0 52px;
+	margin: 44px 38px 0 52px;
 }
 .logo a{
 	color: #fff;
 }
 .header-nav{
 	float: left;
+	margin-top: 44px;
 }
 .header-nav li{
 	display: inline-block;
@@ -181,10 +181,9 @@ ul {
 	}
 	.header{
 		height: 74px;
-		line-height: 74px;
 	}
 	.logo{
-		margin-left: 26px;
+		margin: 30px 38px 0 26px;
 	}
 	.inner-block{
 		height: 348px;
@@ -214,7 +213,7 @@ ul {
 	.content-row{
 		padding-left: 69px;
 	}
-	.content-block.block-2{
+	.content-block.hidden-sm{
 		display: none;
 	}
 	.content-block.w50{
@@ -228,13 +227,12 @@ ul {
 	}
 	.header{
 		height: 37px;
-		line-height: 37px;
 	}
 	.header a{
 		font-size: 8px;
 	}
 	.logo{
-		margin-left: 12px;
+		margin: 14px 38px 0 12px;
 	}
 	.inner-block{
 		height: 176px;
@@ -259,6 +257,9 @@ ul {
 		display: block;
 		float: right;
 	}
+	.slicknav_nav{
+		top: 37px;
+	}
 	.header-nav {
 		display: none;
 	}
@@ -278,7 +279,7 @@ ul {
 	.content-block p + p{
 		padding-top: 34px;
 	}
-	.content-block.block-2{
+	.content-block.hidden-sm{
 		display: none;
 	}
 	.content-block.w50{
